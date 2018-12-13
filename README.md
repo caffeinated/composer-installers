@@ -1,2 +1,2 @@
-# theme-installer
-Experimental composer plugin
+# Composer Installers
+Experimental composer plugin.

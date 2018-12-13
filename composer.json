@@ -1,0 +1,22 @@
+{
+    "name": "caffeinated/composer-installers",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "description": "A library of Composer installers for various caffeinated packages",
+    "keywords": [
+        "installer",
+        "composer",
+        "caffeinated"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Caffeinated\\Composer\\": "src/"
+        }
+    },
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "extra": {
+        "class": "Caffeinated\\Composer\\Plugin"
+    }
+}
