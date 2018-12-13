@@ -5,6 +5,7 @@ namespace Caffeinated\Composer;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
+use Caffeinated\Composer\Installers\Installer;
 
 class Plugin implements PluginInterface
 {
